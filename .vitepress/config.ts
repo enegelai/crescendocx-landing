@@ -12,6 +12,7 @@ export default defineConfig({
   srcDir: '.',
   srcExclude: ['**/README.md', '**/TODO.md'],
   outDir: './dist',
+  base: '/crescendocx-landing/',
   vue: {
     template: {
       compilerOptions: {
@@ -101,7 +102,7 @@ export default defineConfig({
   // generates sitemap
   buildEnd: async ({ outDir }) => {
     const sitemap = new SitemapStream({
-      hostname: 'https://www.enegel.ai/'
+      hostname: 'https://enegelai.github.io/crescendocx-landing'
     });
     const writeStream = createWriteStream(path.resolve(outDir, 'sitemap.xml'));
     sitemap.pipe(writeStream);
@@ -116,7 +117,7 @@ export default defineConfig({
 
     // Generate canonical link
     //<link rel="canonical" href="https://example.com/dresses/green-dresses" />
-    const base = 'https://www.enegel.ai';
+    const base = 'https://enegelai.github.io/crescendocx-landing';
     const u = page.replace('index.md', '').replace('.md', '').trim();
     let cu = base;
     if (u.length > 0) {

@@ -1,13 +1,13 @@
 <script setup>
-import Date from './Date.vue'
-import PageHeader from './PageHeader.vue'
-import PageFooter from './PageFooter.vue'
-import { data as posts } from './posts.data'
+import Date from './Date.vue';
+import PageHeader from './PageHeader.vue';
+import PageFooter from './PageFooter.vue';
+import { data as posts } from './posts.data';
 </script>
 
 <template>
-  <div class="antialiased">
-    <PageHeader></PageHeader>
+  <PageHeader></PageHeader>
+  <div class="antialiased bg-white">
     <div class="absolute z-20 top-0 inset-x-0 flex justify-center overflow-hidden pointer-events-none">
       <div class="w-[108rem] flex-none flex justify-end">
         <picture
@@ -28,10 +28,7 @@ import { data as posts } from './posts.data'
         <div class="space-y-16">
           <article class="relative group" v-for="{ title, url, date, excerpt } of posts">
             <div class="absolute -inset-y-2.5 -inset-x-4 md:-inset-y-4 md:-inset-x-6 sm:rounded-2xl group-hover:bg-slate-50/70 dark:group-hover:bg-slate-800/50"></div>
-            <svg
-              viewBox="0 0 9 9"
-              class="hidden absolute right-full mr-6 top-2 text-slate-200 dark:text-slate-600 md:mr-12 w-[calc(0.5rem+1px)] h-[calc(0.5rem+1px)] overflow-visible sm:block"
-            >
+            <svg viewBox="0 0 9 9" class="hidden absolute right-full mr-6 top-2 text-slate-200 dark:text-slate-600 md:mr-12 w-[calc(0.5rem+1px)] h-[calc(0.5rem+1px)] overflow-visible sm:block">
               <circle cx="4.5" cy="4.5" r="4.5" stroke="currentColor" class="fill-white dark:fill-slate-900" stroke-width="2"></circle>
             </svg>
             <div class="relative">
@@ -69,6 +66,6 @@ import { data as posts } from './posts.data'
         </div>
       </div>
     </main>
-    <PageFooter></PageFooter>
   </div>
+  <PageFooter></PageFooter>
 </template>

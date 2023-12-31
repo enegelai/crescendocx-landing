@@ -6,8 +6,8 @@ import { data as businesscases } from './businesscases.data';
 </script>
 
 <template>
-  <div class="antialiased">
-    <PageHeader></PageHeader>
+  <PageHeader></PageHeader>
+  <div class="antialiased bg-white">
     <div class="absolute z-20 top-0 inset-x-0 flex justify-center overflow-hidden pointer-events-none">
       <div class="w-[108rem] flex-none flex justify-end">
         <picture
@@ -66,6 +66,6 @@ import { data as businesscases } from './businesscases.data';
         </div>
       </div>
     </main>
-    <PageFooter></PageFooter>
   </div>
+  <PageFooter></PageFooter>
 </template>

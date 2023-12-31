@@ -15,40 +15,40 @@
       <Author />
     </div>
     <div v-if="frontmatter.image" class="mt-2 mb-6">
-      <img :src="frontmatter.image"/>
+      <img :src="frontmatter.image" />
     </div>
     <div v-else class="mt-2 mb-6">
-      <img src="/img/enegelai.png"/>
+      <img src="/img/enegelai.png" />
     </div>
     <Content class="prose prose-slate dark:prose-dark" />
   </div>
 </template>
 
 <script>
-import Date from './Date.vue'
-import Author from './Author.vue'
-import { getNameFromPath, formatDate } from './utils.js'
-import { ref, watch, computed } from 'vue'
-import { useData } from 'vitepress'
+import Date from './Date.vue';
+import Author from './Author.vue';
+import { getNameFromPath, formatDate } from './utils.js';
+import { ref, watch, computed } from 'vue';
+import { useData } from 'vitepress';
 
 export default {
   data() {
     return {
       flatPages: null,
       prevPage: null,
-      nextPage: null,
-    }
+      nextPage: null
+    };
   },
   components: { Date, Author },
   emits: ['contentUpdated'],
   setup() {
-    const { site, page, theme, frontmatter } = useData()
+    const { site, page, theme, frontmatter } = useData();
     return {
       theme,
       page,
       frontmatter,
-      date: computed(() => formatDate(frontmatter.value.date)),
-    }
+      date: computed(() => formatDate(frontmatter.value.date))
+    };
   }
-}
+};
 </script>
