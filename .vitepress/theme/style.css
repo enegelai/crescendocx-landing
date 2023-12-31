@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: block;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    src: url('/fonts/Inter-roman-latin.var.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: block;
+    font-style: italic;
+    font-named-instance: 'Italic';
+    src: url('/fonts/Inter-italic-latin.var.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Fira Code VF';
+    font-weight: 300 700;
+    font-style: normal;
+    src: url('/fonts/FiraCode-VF.woff2') format('woff2-variations'),
+    url('/fonts/FiraCode-VF.woff') format('woff-variations');
+}
+
+.font-mono {
+    font-variant-ligatures: none;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/SourceSansPro-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-weight: 700;
+    font-style: normal;
+    src: url('/fonts/Ubuntu-Mono-bold.woff2') format('woff2');
+}
+

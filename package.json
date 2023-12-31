@@ -1,0 +1,39 @@
+{
+  "name": "crescendocx-landing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress",
+    "build": "vitepress build",
+    "serve": "vitepress serve --port 4177"
+  },
+  "devDependencies": {
+    "@headlessui/vue": "^1.7.16",
+    "@heroicons/vue": "^2.1.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.10",
+    "@vitejs/plugin-vue": "^5.0.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "gray-matter": "^4.0.3",
+    "mini-svg-data-uri": "^1.4.4",
+    "postcss": "^8.4.32",
+    "prettier": "^3.1.1",
+    "tailwindcss": "^3.4.0",
+    "@types/markdown-it": "^13.0.7",
+    "@types/node": "^20.10.6",
+    "feed": "^4.2.2",
+    "vitepress": "^1.0.0-rc.33",
+    "vue": "^3.4.0",
+    "sitemap": "^7.1.1",
+    "mdi-vue": "^3.0.13",
+    "@mdi/js": "^7.4.47",
+    "axios": "^1.6.3",
+    "vue-loading-overlay": "^6.0.3"
+  }
+}
