@@ -19,7 +19,7 @@ export default createContentLoader('resources/*.md', {
     return raw
       .map(({ url, frontmatter, excerpt }) => ({
         title: frontmatter.title,
-        url,
+        url: `/crescendocx-landing${url}`,
         excerpt,
         date: formatDate(frontmatter.date)
       }))

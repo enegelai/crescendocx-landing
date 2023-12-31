@@ -70,18 +70,18 @@ import Logo from './components/Logo.vue';
 
 const navigation = {
   products: [
-    { name: 'Conversation Intelligence', href: '/product/#conversation-intelligence-dashboard' },
-    { name: 'Personal Coach', href: '/product/#personal-coach' },
-    { name: 'Bot Tester', href: '/product/#bot-tester' }
+    { name: 'Conversation Intelligence', href: '/crescendocx-landing/product/#conversation-intelligence-dashboard' },
+    { name: 'Personal Coach', href: '/crescendocx-landing/product/#personal-coach' },
+    { name: 'Bot Tester', href: '/crescendocx-landing/product/#bot-tester' }
   ],
   support: [
-    { name: 'Pricing', href: '/company/pricing' }
+    { name: 'Pricing', href: '/crescendocx-landing/company/pricing' }
     //{ name: 'Documentation', href: '#' },
     //{ name: 'Guides', href: '#' },
     //{ name: 'API Status', href: '#' },
   ],
   company: [
-    { name: 'About', href: '/company/about' }
+    { name: 'About', href: '/crescendocx-landing/company/about' }
     //{ name: 'Blog', href: '#' },
     //{ name: 'Jobs', href: '#' },
     //{ name: 'Press', href: '#' },
@@ -90,7 +90,7 @@ const navigation = {
   legal: [
     //{ name: 'Claim', href: '#' },
     //{ name: 'Privacy', href: '#' },
-    { name: 'Terms Of Use', href: '/company/termsofuse' }
+    { name: 'Terms Of Use', href: '/crescendocx-landing/company/termsofuse' }
   ],
   social: [
     {

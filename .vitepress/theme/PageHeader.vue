@@ -2,8 +2,8 @@
   <header class="sticky top-0 z-40 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-slate-900/10 supports-backdrop-blur:bg-black/60">
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
-        <a href="/" class="-m-1.5 p-1.5">
-          <span class="sr-only">Enegel</span>
+        <a href="/crescendocx-landing/" class="-m-1.5 p-1.5">
+          <span class="sr-only">Crescendo</span>
           <Logo class="text-white w-full h-8"></Logo>
         </a>
       </div>
@@ -53,9 +53,9 @@
           </transition>
         </Popover>
 
-        <a href="/resources/" class="text-sm font-semibold leading-6 text-gray-100">Resources</a>
-        <a href="/blog/" class="text-sm font-semibold leading-6 text-gray-100">Blog</a>
-        <a href="/company/about" class="text-sm font-semibold leading-6 text-gray-100">Company</a>
+        <a href="/crescendocx-landing/resources/" class="text-sm font-semibold leading-6 text-gray-100">Resources</a>
+        <a href="/crescendocx-landing/blog/" class="text-sm font-semibold leading-6 text-gray-100">Blog</a>
+        <a href="/crescendocx-landing/company/about" class="text-sm font-semibold leading-6 text-gray-100">Company</a>
       </PopoverGroup>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         <a href="https://app.enegel.ai" target="_blank" class="text-sm font-semibold leading-6 bg-orange-700 px-2 py-1 rounded-md text-white">Log in <span aria-hidden="true">&rarr;</span></a>
@@ -67,7 +67,7 @@
         <DialogPanel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-4 py-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div class="flex items-center justify-between">
             <div class="flex lg:flex-1">
-              <a href="/" class="-m-1.5 p-1.5">
+              <a href="/crescendocx-landing/" class="-m-1.5 p-1.5">
                 <span class="sr-only">Crescendo</span>
                 <Logo class="text-slate-900 dark:text-slate-900 w-auto h-6"></Logo>
               </a>
@@ -98,9 +98,9 @@
                     >
                   </DisclosurePanel>
                 </Disclosure>
-                <a href="/resources/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Resources</a>
-                <a href="/blog/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Blog</a>
-                <a href="/company/about" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
+                <a href="/crescendocx-landing/resources/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Resources</a>
+                <a href="/crescendocx-landing/blog/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Blog</a>
+                <a href="/crescendocx-landing/company/about" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
               </div>
               <div class="py-6">
                 <a href="https://app.enegel.ai" target="_blank" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
@@ -125,25 +125,25 @@ const products = [
   {
     name: 'Conversation Intelligence Dashboard',
     description: 'A cutting-edge solution designed to streamline call center operations and enhance agent performance',
-    href: '/product/#conversation-intelligence-dashboard',
+    href: '/crescendocx-landing/product/#conversation-intelligence-dashboard',
     icon: ChartPieIcon
   },
   {
     name: 'Personal Coach',
     description: 'Personal Coach utilizes advanced Generative AI technology, designed to analyze, optimize, and track agent performance over time. ',
-    href: '/product/#personal-coach',
+    href: '/crescendocx-landing/product/#personal-coach',
     icon: CursorArrowRaysIcon
   },
   {
     name: 'Bot Tester',
     description: 'The Enegel Bot Tester is a cutting-edge solution for evaluating and enhancing the performance of your Voice Bots and Chat Bots.',
-    href: '/product/#bot-tester',
+    href: '/crescendocx-landing/product/#bot-tester',
     icon: CheckCircleIcon
   }
 ];
 const callsToAction = [
-  { name: 'Learn More', href: '/product/', icon: InformationCircleIcon, class: 'bg-gray-50 text-gray-900 hover:bg-gray-100' },
-  { name: 'Private Beta Waitlist', href: '/company/beta', icon: CursorArrowRaysIcon, class: 'bg-orange-600 text-white hover:bg-orange-500' }
+  { name: 'Learn More', href: '/crescendocx-landing/product/', icon: InformationCircleIcon, class: 'bg-gray-50 text-gray-900 hover:bg-gray-100' },
+  { name: 'Private Beta Waitlist', href: '/crescendocx-landing/company/beta', icon: CursorArrowRaysIcon, class: 'bg-orange-600 text-white hover:bg-orange-500' }
 ];
 
 const mobileMenuOpen = ref(false);

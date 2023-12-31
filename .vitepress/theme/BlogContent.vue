@@ -15,10 +15,10 @@
       <Author />
     </div>
     <div v-if="frontmatter.image" class="mt-2 mb-6">
-      <img :src="frontmatter.image" />
+      <img :src="`/crescendocx-landing${frontmatter.image}`" />
     </div>
     <div v-else class="mt-2 mb-6">
-      <img src="/img/enegelai.png" />
+      <img src="/crescendocx-landing/img/enegelai.png" />
     </div>
     <Content class="prose prose-slate dark:prose-dark" />
   </div>

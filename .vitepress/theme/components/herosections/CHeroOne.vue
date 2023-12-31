@@ -46,20 +46,20 @@
           <p class="text-xl leading-8 text-gray-400">Our groundbreaking service combines Generative AI and human expertise to ensure top-quality customer experience</p>
           <div class="mt-10 flex items-center gap-x-6">
             <a
-              href="/company/tryit"
+              href="/crescendocx-landing/company/tryit"
               class="flex items-center rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
             >
               <CursorArrowRaysIcon class="h-6 w-6 flex-none" aria-hidden="true" />
               Try it Now!
             </a>
             <a
-              href="/company/beta"
+              href="/crescendocx-landing/company/beta"
               class="flex items-center rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
             >
               <CursorArrowRaysIcon class="h-6 w-6 flex-none" aria-hidden="true" />
               Join Private Beta
             </a>
-            <a href="/product/" class="text-sm font-semibold leading-6 text-gray-300">Learn more <span aria-hidden="true">→</span></a>
+            <a href="/crescendocx-landing/product/" class="text-sm font-semibold leading-6 text-gray-300">Learn more <span aria-hidden="true">→</span></a>
           </div>
         </div>
         <img
