@@ -11,7 +11,7 @@ const { frontmatter } = useData();
       <ul class="flex justify-center xl:block space-x-8 sm:space-x-12 xl:space-x-0 xl:space-y-8">
         <li class="flex items-center space-x-2">
           <img v-if="frontmatter.avatar" :src="'/crescendocx-landing/img/' + frontmatter.avatar" alt="author image" class="w-12 h-12 rounded-full" />
-          <img v-else src="/crescendocx-landing/logo.png" alt="logo image" class="w-12 h-12" />
+          <img v-else :src="'/crescendocx-landing/logo.png'" alt="logo image" class="w-12 h-12" />
           <dl class="text-sm font-medium leading-5 whitespace-nowrap">
             <dt class="sr-only">Name</dt>
             <dd class="text-slate-700 hover:text-slate-900 dark:text-slate-200 text-lg dark:hover:text-white">
@@ -30,7 +30,7 @@ const { frontmatter } = useData();
                 target="_blank"
                 rel="noopnener noreferrer"
                 class="text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white link"
-                ><img class="w-6 h-6" src="/crescendocx-landing/img/icons8-linkedin-96.svg"
+                ><img class="w-6 h-6" :src="'/crescendocx-landing/img/icons8-linkedin-96.svg'"
               /></a>
             </dd>
           </dl>
