@@ -33,14 +33,15 @@ Start development server with hot reloading
 ```shell
 $ npm run dev
 
- vitepress v1.0.0-rc.33
+  vitepress v1.0.0-rc.33
 
-  ➜  Local:   http://localhost:5175/
+  ➜  Local:   http://localhost:5174/crescendocx-landing/
   ➜  Network: use --host to expose
   ➜  press h to show help
+
 ```
 
-Open http://localhost:5175/  
+Open http://localhost:5174/crescendocx-landing/  
 
 Build
 

@@ -59,7 +59,7 @@ export default defineConfig({
         src: '//js.hsforms.net/forms/embed/v2.js'
       }
     ],
-    ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-9YYSL8KCZV');"],
+    ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-9YYSL8KCZV');"]
     /*
     [
       'script',
@@ -75,7 +75,6 @@ export default defineConfig({
         href: 'https://cdn.jsdelivr.net/npm/@enegelai/bot-widget@latest/dist/index.css'
       }
     ],
-    */
     [
       'script',
       {
@@ -90,6 +89,7 @@ export default defineConfig({
         href: '/bot/index.css'
       }
     ]
+    */
   ],
   transformHtml: (_, id, { pageData }) => {
     if (!/[\\/]404\.html$/.test(id))
