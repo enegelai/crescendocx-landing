@@ -6,12 +6,12 @@
     <div class="z-50 mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-2 lg:pt-32">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="">
-          <logo class="w-64 text-gray-300"></logo>
-          <p class="ml-7 mt-5 text-md font-bold leading-6 text-indigo-200/80">
+          <LogoCXAI class="w-64 text-gray-300"></LogoCXAI>
+          <p class="mt-5 text-md font-bold leading-6 text-indigo-200/80">
             Harmonize Artificial and Human Intelligence<br />
             to Re-Imagine Customer Experience
           </p>
-          <div class="flex space-x-6 mt-4 ml-6">
+          <div class="flex space-x-6 mt-4 -ml-1">
             <a v-for="item in navigation.social" :key="item.name" :href="item.href" target="_blank" class="text-gray-500 hover:text-gray-400">
               <span class="sr-only">{{ item.name }}</span>
               <component :is="item.icon" class="h-10 w-10" aria-hidden="true" />
@@ -67,6 +67,7 @@
 <script setup>
 import { defineComponent, h } from 'vue';
 import Logo from './components/Logo.vue';
+import LogoCXAI from './components/LogoCXAI.vue';
 
 const navigation = {
   products: [

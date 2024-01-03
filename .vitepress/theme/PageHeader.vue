@@ -4,7 +4,7 @@
       <div class="flex lg:flex-1">
         <a href="/crescendocx-landing/" class="-m-1.5 p-1.5">
           <span class="sr-only">Crescendo</span>
-          <Logo class="text-white w-full h-8"></Logo>
+          <LogoCXAI class="text-white w-full h-6"></LogoCXAI>
         </a>
       </div>
       <div class="flex lg:hidden">
@@ -117,6 +117,7 @@
 import { ref, onMounted } from 'vue';
 import DarkModeSwitch from './components/DarkModeSwitch.vue';
 import Logo from './components/Logo.vue';
+import LogoCXAI from './components/LogoCXAI.vue';
 import { Dialog, DialogPanel, Disclosure, DisclosureButton, DisclosurePanel, Popover, PopoverButton, PopoverGroup, PopoverPanel } from '@headlessui/vue';
 import { ArrowPathIcon, Bars3Icon, ChartPieIcon, CursorArrowRaysIcon, FingerPrintIcon, SquaresPlusIcon, XMarkIcon, CheckCircleIcon, InformationCircleIcon } from '@heroicons/vue/24/outline';
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/vue/20/solid';
