@@ -1,76 +1,31 @@
 <template>
-  <div class="relative isolate overflow-hidden bg-gray-900 pt-14 border-y-amber-200 min-h-[98lvh]">
-    <svg class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
-      <defs>
-        <pattern id="983e3e4c-de6d-4c3f-8d64-b9761d1534cc" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
-          <path d="M.5 200V.5H200" fill="none" />
-        </pattern>
-      </defs>
-      <svg x="50%" y="-1" class="overflow-visible fill-gray-800/20">
-        <path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z" stroke-width="0" />
-      </svg>
-      <rect width="100%" height="100%" stroke-width="0" fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)" />
-    </svg>
-    <div class="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]" aria-hidden="true">
-      <div
-        class="aspect-[1108/632] w-[69.25rem] bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-20"
-        style="
-          clip-path: polygon(
-            73.6% 51.7%,
-            91.7% 11.8%,
-            100% 46.4%,
-            97.4% 82.2%,
-            92.5% 84.9%,
-            75.7% 64%,
-            55.3% 47.5%,
-            46.5% 49.4%,
-            45% 62.9%,
-            50.3% 87.2%,
-            21.3% 64.1%,
-            0.1% 100%,
-            5.4% 51.1%,
-            21.4% 63.9%,
-            58.9% 0.2%,
-            73.6% 51.7%
-          );
-        "
-      />
-    </div>
-    <!--<div class="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96" aria-hidden="true" />-->
-    <div class="mx-auto max-w-7xl px-6 md:py-16 sm:py-10 lg:px-8">
-      <div class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
-        <h1 class="md:mt-10 max-w-2xl text-[88px] font-serif font-thin tracking-tight text-white lg:col-span-2 xl:col-auto">It's all been leading up to this</h1>
-        <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-          <p class="text-xl leading-8 text-white">
-            Our groundbreaking service harmonizes AI and human expertise to ensure top-quality customer experience. We’re so confident in it, our customers only pay us when their customers are satisfied.
-          </p>
+  <div class="relative isolate overflow-hidden bg-c7o-night-rider min-h-[98lvh]">
+    <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:px-8 lg:py-20">
+      <div class="lg:flex">
+        <div class="mx-auto max-w-3xl flex-shrink-0 lg:mx-0 lg:max-w-3xl lg:pt-8">
+          <span class="border border-white text-white rounded-xl px-6 py-3"
+            >A letter from us. <a href="#" class="ml-2 font-bold leading-6">Read more <span aria-hidden="true">→</span></a></span
+          >
+          <h1 class="mt-8 mb-4 max-w-3xl text-[88px] font-serif font-thin tracking-tight leading-tight text-white lg:col-span-2 xl:col-auto">It's all been leading up to this</h1>
+          <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
+            <p class="text-xl leading-8 text-white">
+              Our groundbreaking service harmonizes AI and human expertise to ensure top-quality customer experience. We’re so confident in it, our customers only pay us when their customers are satisfied.
+            </p>
+          </div>
           <div class="mt-10 flex items-center gap-x-6">
-            <a
-              href="/company/tryit"
-              class="flex items-center rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
-            >
-              <CursorArrowRaysIcon class="h-6 w-6 flex-none" aria-hidden="true" />
-              Try it Now!
-            </a>
-            <a
-              href="/company/beta"
-              class="flex items-center rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
-            >
-              <CursorArrowRaysIcon class="h-6 w-6 flex-none" aria-hidden="true" />
-              Join Private Beta
-            </a>
-            <a href="/product/" class="text-sm font-semibold leading-6 text-gray-300">Learn more <span aria-hidden="true">→</span></a>
+            <a href="#whatwedo" class="text-sm font-semibold leading-6 bg-c7o-strobe hover:bg-c7o-strobe-hover px-4 py-2 rounded-3xl text-black">Learn More</a>
           </div>
         </div>
-        <img
+        <div class="mx-auto mt-16 max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-grow">
+          <!--<img
           src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80"
           alt=""
           class="mt-5 aspect-[5/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2"
-        />
-        <!--<img src="/img/landing1.webp" alt="" class="mt-5 md:mt-10 aspect-[5/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2" />-->
+        />-->
+        </div>
       </div>
-      <div class="my-6 py-6 md:flex items-center justify-between border-t-2 border-gray-500">
-        <div class="my-2 text-gray-300 font-semibold text-2xl">BACKED BY</div>
+      <div class="my-10 py-6 md:flex items-center justify-between border-t border-c7o-purple/50">
+        <div class="my-2 text-gray-300 font-semibold text-xl">SUPPORTED BY</div>
         <div class="md:flex justify-between items-start">
           <a href="https://www.generalcatalyst.com/" target="_blank">
             <svg class="mt-2 mr-4 text-white h-8" viewBox="0 0 979 135" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -115,9 +70,10 @@
         </div>
       </div>
     </div>
-    <!--<div class="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32" />-->
   </div>
 </template>
+
 <script setup>
-import { CursorArrowRaysIcon } from '@heroicons/vue/24/outline';
+import { ChevronRightIcon } from '@heroicons/vue/20/solid';
+import { CursorArrowRaysIcon } from '@heroicons/vue/24/outline/index.js';
 </script>

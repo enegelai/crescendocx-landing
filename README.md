@@ -35,13 +35,13 @@ $ npm run dev
 
   vitepress v1.0.0-rc.33
 
-  ➜  Local:   http://localhost:5174/crescendocx-landing/
+  ➜  Local:   http://localhost:5174/
   ➜  Network: use --host to expose
   ➜  press h to show help
 
 ```
 
-Open http://localhost:5174/crescendocx-landing/  
+Open http://localhost:5174/  
 
 Build
 

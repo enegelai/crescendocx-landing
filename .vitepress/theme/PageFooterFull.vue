@@ -3,27 +3,22 @@
   <footer class="overflow-hidden relative bg-gray-900 flex">
     <!--<img class="z-0 absolute top-10 -right-1/4 opacity-30 w-5/6 -rotate-12" src="/img/bgwhirllarge.png" />-->
     <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="z-50 mx-auto max-w-7xl px-6 pb-8 pt-8 sm:pt-12 lg:px-2 lg:pt-16">
+    <div class="z-50 mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-2 lg:pt-32">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="">
-          <LogoGradient class="w-64 text-gray-300"></LogoGradient>
+          <LogoCXAI class="w-64 text-gray-300"></LogoCXAI>
           <p class="mt-5 text-md font-bold leading-6 text-indigo-200/80">
             Harmonize Artificial and Human Intelligence<br />
             to Re-Imagine Customer Experience
           </p>
-        </div>
-        <div class="mt-16 flex xl:justify-end xl:col-span-2 xl:mt-0">
-          <div>
-            <div class="font-mono text-md text-white">CONTACT US</div>
-            <div class="flex space-x-6 mt-4 -ml-1">
-              <a v-for="item in navigation.social" :key="item.name" :href="item.href" target="_blank" class="text-white hover:text-gray-400">
-                <span class="sr-only">{{ item.name }}</span>
-                <component :is="item.icon" class="text-c7o-purple-darker h-10 w-10" aria-hidden="true" />
-              </a>
-            </div>
+          <div class="flex space-x-6 mt-4 -ml-1">
+            <a v-for="item in navigation.social" :key="item.name" :href="item.href" target="_blank" class="text-gray-500 hover:text-gray-400">
+              <span class="sr-only">{{ item.name }}</span>
+              <component :is="item.icon" class="h-10 w-10" aria-hidden="true" />
+            </a>
           </div>
         </div>
-        <!--<div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+        <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
               <h3 class="text-sm font-semibold leading-6 text-white">Products</h3>
@@ -60,10 +55,10 @@
               </ul>
             </div>
           </div>
-        </div>-->
+        </div>
       </div>
-      <div class="border-t border-c7o-purple/50 pt-8 mt-6 sm:mt-10 lg:mt-12">
-        <p class="text-xs leading-5 text-gray-200">&copy; 2023-present Crescendo. All rights reserved.</p>
+      <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
+        <p class="text-xs leading-5 text-gray-400">&copy; 2023-present Crescendo. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -73,7 +68,6 @@
 import { defineComponent, h } from 'vue';
 import Logo from './components/Logo.vue';
 import LogoCXAI from './components/LogoCXAI.vue';
-import LogoGradient from './components/LogoGradient.vue';
 
 const navigation = {
   products: [
@@ -107,7 +101,7 @@ const navigation = {
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 48 48' }, [
             h('path', {
-              fill: '#3D1C6E',
+              fill: '#0288D1',
               d: 'M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z'
             }),
             h('path', {

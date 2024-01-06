@@ -12,7 +12,6 @@ export default defineConfig({
   srcDir: '.',
   srcExclude: ['**/README.md', '**/TODO.md'],
   outDir: './dist',
-  base: '/crescendocx-landing/',
   vue: {
     template: {
       compilerOptions: {

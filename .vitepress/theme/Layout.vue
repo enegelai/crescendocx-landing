@@ -1,4 +1,16 @@
-<script setup lang="ts">
+<template>
+  <div class="antialiased text-slate-500 dark:text-slate-400 bg-c7o-night-rider">
+    <Home v-if="isIndex" />
+    <!--<NotFound v-else-if="isNotFound" />-->
+    <Blog v-else-if="isBlogHome" />
+    <BusinessCases v-else-if="isResourcesHome" />
+    <Product v-else-if="isProductHome" />
+    <BlogLayout v-else-if="isBlogPage" />
+    <PageLayout v-else />
+  </div>
+</template>
+
+<script setup>
 import { computed, onMounted } from 'vue';
 import { useRoute, useData } from 'vitepress';
 import Home from './Home.vue';
@@ -23,15 +35,3 @@ onMounted(() => {
   document.documentElement.classList.remove('dark');
 });
 </script>
-
-<template>
-  <div class="antialiased text-slate-500 dark:text-slate-400 bg-slate-900 dark:bg-slate-900">
-    <Home v-if="isIndex" />
-    <!--<NotFound v-else-if="isNotFound" />-->
-    <Blog v-else-if="isBlogHome" />
-    <BusinessCases v-else-if="isResourcesHome" />
-    <Product v-else-if="isProductHome" />
-    <BlogLayout v-else-if="isBlogPage" />
-    <PageLayout v-else />
-  </div>
-</template>
