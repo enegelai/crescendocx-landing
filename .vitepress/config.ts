@@ -101,7 +101,7 @@ export default defineConfig({
   // generates sitemap
   buildEnd: async ({ outDir }) => {
     const sitemap = new SitemapStream({
-      hostname: 'https://enegelai.github.io/crescendocx-landing'
+      hostname: 'https://crescendocx.ai'
     });
     const writeStream = createWriteStream(path.resolve(outDir, 'sitemap.xml'));
     sitemap.pipe(writeStream);
@@ -116,7 +116,7 @@ export default defineConfig({
 
     // Generate canonical link
     //<link rel="canonical" href="https://example.com/dresses/green-dresses" />
-    const base = 'https://enegelai.github.io/crescendocx-landing';
+    const base = 'https://crescendocx.ai';
     const u = page.replace('index.md', '').replace('.md', '').trim();
     let cu = base;
     if (u.length > 0) {
@@ -150,8 +150,8 @@ export default defineConfig({
       head.push(['meta', { property: 'og:image', content: base + pageData.frontmatter.image }]);
       head.push(['meta', { name: 'twitter:image', content: base + pageData.frontmatter.image }]);
     } else {
-      head.push(['meta', { property: 'og:image', content: base + '/img/enegelai.png' }]);
-      head.push(['meta', { name: 'twitter:image', content: base + '/img/enegelai.png' }]);
+      head.push(['meta', { property: 'og:image', content: base + '/img/crescendocx.png' }]);
+      head.push(['meta', { name: 'twitter:image', content: base + '/img/crescendocx.png' }]);
     }
 
     return head;
