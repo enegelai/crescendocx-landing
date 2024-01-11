@@ -8,6 +8,7 @@ interface Post {
     string: string;
   };
   excerpt: string | undefined;
+  frontmatter: any;
 }
 
 declare const data: Post[];
@@ -19,12 +20,13 @@ export default createContentLoader('blog/*.md', {
     return raw
       .map(({ url, frontmatter, excerpt }) => ({
         title: frontmatter.title,
-        url: `/crescendocx-landing${url}`,
+        url: url,
         excerpt,
-        date: formatDate(frontmatter.date)
+        date: formatDate(frontmatter.date),
+        frontmatter: frontmatter
       }))
       .sort((a, b) => b.date.time - a.date.time)
-      .filter((x) => !x.url.endsWith('/index'));
+      .filter((x) => x.url !== '/blog/');
   }
 });
 

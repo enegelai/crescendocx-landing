@@ -1,15 +1,15 @@
 ---
-title: "Enegel.ai Announces Generative AI Virtual Agent"
+title: "Announcing Generative AI Virtual Agent"
 date: 2023-11-30
 author: Tod Famous
 avatar: Tod Famous Pic.png
 linkedin: tfamous
-image: /img/blog/virtualagent.png
-description: "Enegel.ai Virtual Agent is a next generation chatbot designed from the bottom up to leverage the most advanced Generative AI technology to outperform your digital customer service agents"
+image: /img/blog/patterns/p1.png
+description: "Virtual Agent is a next generation assistant designed from the bottom up to leverage the most advanced Generative AI technology to outperform your digital customer service agents"
 keywords: "Conversational Intelligence, Generative AI, Enegel, Enegel.ai, CX, Customer Experience, CX Improvement, Customer Satisfaction" 
 ---
 
-Enegel.ai Virtual Agent is a next generation chatbot designed from the bottom up to leverage the most advanced Generative AI technology to outperform your digital customer service agents.
+Virtual Agent is a next generation assistant designed from the bottom up to leverage the most advanced Generative AI technology to outperform your digital customer service agents.
 
 ---
 <script setup>

@@ -11,7 +11,7 @@
     </div>
   </div>-->
 
-  <div class="bg-white">
+  <div class="bg-c7o-strobe-light">
     <div class="w-full mx-auto max-w-8xl lg:flex">
       <BlogSideBar :nav-open="navOpen" @update:closeNav="navOpen = false" />
       <div class="min-w-0 w-full flex-auto lg:static lg:max-h-full lg:overflow-visible" :class="{ 'overflow-hidden max-h-screen fixed': navOpen }">

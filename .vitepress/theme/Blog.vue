@@ -7,23 +7,83 @@ import { data as posts } from './posts.data';
 
 <template>
   <PageHeader></PageHeader>
-  <div class="antialiased bg-white">
-    <div class="absolute z-20 top-0 inset-x-0 flex justify-center overflow-hidden pointer-events-none">
-      <div class="w-[108rem] flex-none flex justify-end">
-        <picture
-          ><!--<source srcset="/media/docs@30.8b9a76a2.avif" type="image/avif" />-->
-          <img src="/media/docs@tinypng.d9e4dcdc.png" alt="" class="w-[71.75rem] flex-none max-w-none dark:hidden" decoding="async" /></picture
-        ><picture
-          ><!--<source srcset="/media/docs-dark@30.1a9f8cbf.avif" type="image/avif" />-->
-          <img src="/media/docs-dark@tinypng.1bbe175e.png" alt="" class="w-[90rem] flex-none max-w-none hidden dark:block" decoding="async"
-        /></picture>
-      </div>
-    </div>
-    <header class="py-16 sm:text-center">
-      <h1 class="mb-4 text-3xl sm:text-4xl tracking-tight text-slate-900 font-extrabold dark:text-slate-200">Latest Updates</h1>
+  <div class="antialiased bg-c7o-strobe-light pb-20">
+    <header class="pt-16 pb-6 sm:text-center">
+      <h1 class="mb-4 text-3xl sm:text-4xl tracking-tight font-serif text-slate-900 font-light dark:text-slate-200">Latest Updates</h1>
     </header>
     <main class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
-      <div class="relative sm:pb-12 sm:ml-[calc(2rem+1px)] md:ml-[calc(3.5rem+1px)] lg:ml-[max(calc(14.5rem+1px),calc(100%-48rem))]">
+      <div class="mt-10 space-y-20">
+        <article v-for="post in posts" :key="post.id" class="relative isolate flex flex-col gap-8 lg:flex-row">
+          <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
+            <img :src="post.frontmatter.image" alt="" class="absolute inset-0 h-full w-full bg-gray-50 object-cover" />
+            <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+          </div>
+          <div>
+            <div class="flex items-center gap-x-4 text-sm">
+              <time :datetime="post.date.time" class="text-gray-500">{{ post.date.string }}</time>
+            </div>
+            <div class="group relative max-w-xl">
+              <h3 class="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                <a :href="post.url">
+                  <span class="absolute inset-0" />
+                  {{ post.title }}
+                </a>
+              </h3>
+              <p class="mt-5 text-md leading-6 text-gray-600" v-html="post.excerpt"></p>
+            </div>
+            <dl class="py-4">
+              <dt class="sr-only">Authors</dt>
+              <dd>
+                <ul class="flex justify-center xl:block space-x-8 sm:space-x-12 xl:space-x-0 xl:space-y-8">
+                  <li class="flex items-center space-x-2 text-gray-400 hover:text-white">
+                    <img v-if="post.frontmatter.avatar" :src="'/img/' + post.frontmatter.avatar" alt="author image" class="w-12 h-12 rounded-full" />
+                    <img v-else :src="'/logo.png'" alt="logo image" class="w-12 h-12" />
+                    <dl class="text-sm font-medium leading-5 whitespace-nowrap">
+                      <dt class="sr-only">Name</dt>
+                      <dd class="text-lg">
+                        <a
+                          :href="post.frontmatter.linkedin ? 'https://www.linkedin.com/in/' + post.frontmatter.linkedin : 'https://www.linkedin.com/company/enegel-ai'"
+                          target="_blank"
+                          rel="noopnener noreferrer"
+                          class="link"
+                          >{{ post.frontmatter.author ? post.frontmatter.author : 'Enegel.ai' }}</a
+                        >
+                      </dd>
+                      <dt class="sr-only">LinkedIn</dt>
+                      <dd>
+                        <a
+                          :href="post.frontmatter.linkedin ? 'https://www.linkedin.com/in/' + post.frontmatter.linkedin : 'https://www.linkedin.com/company/enegel-ai'"
+                          target="_blank"
+                          rel="noopnener noreferrer"
+                          class="text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white link"
+                          ><img class="w-6 h-6" :src="'/img/icons8-linkedin-96-purple.svg'"
+                        /></a>
+                      </dd>
+                    </dl>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <!--<div class="mt-6 flex border-t border-gray-900/5 pt-6">
+              <div class="relative flex items-center gap-x-4">
+                <img :src="post.author.imageUrl" alt="" class="h-10 w-10 rounded-full bg-gray-50" />
+                <div class="text-sm leading-6">
+                  <p class="font-semibold text-gray-900">
+                    <a :href="post.author.href">
+                      <span class="absolute inset-0" />
+                      {{ post.author.name }}
+                    </a>
+                  </p>
+                  <p class="text-gray-600">{{ post.author.role }}</p>
+                </div>
+              </div>
+            </div>-->
+          </div>
+        </article>
+      </div>
+
+      <!--<div class="relative sm:pb-12 sm:ml-[calc(2rem+1px)] md:ml-[calc(3.5rem+1px)] lg:ml-[max(calc(14.5rem+1px),calc(100%-48rem))]">
         <div class="hidden absolute top-3 bottom-0 right-full mr-7 md:mr-[3.25rem] w-px bg-slate-200 dark:bg-slate-800 sm:block"></div>
         <div class="space-y-16">
           <article class="relative group" v-for="{ title, url, date, excerpt } of posts">
@@ -64,7 +124,7 @@ import { data as posts } from './posts.data';
             ></a>
           </article>
         </div>
-      </div>
+      </div>-->
     </main>
   </div>
   <PageFooter></PageFooter>

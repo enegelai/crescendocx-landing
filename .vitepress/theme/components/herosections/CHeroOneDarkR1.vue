@@ -1,6 +1,6 @@
 <template>
-  <div class="relative isolate overflow-hidden bg-c7o-night-rider min-h-[98lvh]">
-    <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:px-8 lg:py-20">
+  <div class="relative isolate overflow-hidden bg-c7o-night-rider">
+    <div class="mx-auto max-w-7xl px-6 pb-4 pt-20">
       <div class="lg:flex">
         <div class="mx-auto max-w-3xl flex-shrink-0 lg:mx-0 lg:max-w-3xl lg:pt-8">
           <span class="border border-white text-white rounded-xl px-6 py-3"
@@ -9,7 +9,7 @@
           <h1 class="mt-8 mb-4 max-w-3xl text-[88px] font-serif font-thin tracking-tight leading-tight text-white lg:col-span-2 xl:col-auto">It's all been leading up to this</h1>
           <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
             <p class="text-xl leading-8 text-white">
-              Our groundbreaking service harmonizes AI and human expertise to ensure top-quality customer experience. We’re so confident in it, our customers only pay us when their customers are satisfied.
+              Our groundbreaking service harmonizes AI and human expertise to ensure top-quality customer experience. We're so confident in it, our customers only pay us when their customers are satisfied.
             </p>
           </div>
           <div class="mt-10 flex items-center gap-x-6">
@@ -24,7 +24,7 @@
         />-->
         </div>
       </div>
-      <div class="my-10 py-6 md:flex items-center justify-between border-t border-c7o-purple/50">
+      <div class="mt-10 mb-4 py-6 md:flex items-center justify-between border-t border-c7o-purple/50">
         <div class="my-2 text-gray-300 font-semibold text-xl">SUPPORTED BY</div>
         <div class="md:flex justify-between items-start">
           <a href="https://www.generalcatalyst.com/" target="_blank">

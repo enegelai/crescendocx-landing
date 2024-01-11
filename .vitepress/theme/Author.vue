@@ -30,7 +30,7 @@ const { frontmatter } = useData();
                 target="_blank"
                 rel="noopnener noreferrer"
                 class="text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white link"
-                ><img class="w-6 h-6" :src="'/img/icons8-linkedin-96.svg'"
+                ><img class="w-6 h-6" :src="'/img/icons8-linkedin-96-purple.svg'"
               /></a>
             </dd>
           </dl>
