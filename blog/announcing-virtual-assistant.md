@@ -39,10 +39,8 @@ Available now, Enegel.ai Virtual Agent pricing is $1k for deployment and 20 cent
 Sign up for Enegel.ai Virtual Agent via our “Try it Now” program.  We’ll reach out to collect training material for your Virtual Agent, and within a day, we will produce a Virtual Agent hosted on our test site at no cost to you.  Upon user acceptance, we’ll provide you with embed code to run the Virtual Agent on your website.
 Enegel.ai is a company with a mission to deliver superior customer experience assured by Generative AI.
 
-<ButtonCTA title="Try it now!" url="https://www.enegel.ai/company/tryit"></ButtonCTA>
-
 **Tod Famous**
 
-CPO, [Enegel.ai](https://www.enegel.ai)
+
 
 

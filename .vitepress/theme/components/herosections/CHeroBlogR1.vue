@@ -8,8 +8,9 @@
       <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
         <article v-for="(post, idx) in posts" :key="idx" class="flex flex-col items-start">
           <div class="relative w-full">
-            <img :src="post.frontmatter.image" alt="" class="aspect-[16/9] w-full bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]" />
-            <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+            <a :href="post.url">
+              <img :src="post.frontmatter.image" alt="" class="aspect-[16/9] w-full bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]" />
+            </a>
           </div>
           <div class="max-w-xl">
             <div class="mt-4 flex items-center gap-x-4 text-sm">
@@ -18,7 +19,7 @@
             <dl class="py-4">
               <dt class="sr-only">Authors</dt>
               <dd>
-                <ul class="flex justify-center xl:block space-x-8 sm:space-x-12 xl:space-x-0 xl:space-y-8">
+                <ul class="flex xl:block space-x-8 sm:space-x-12 xl:space-x-0 xl:space-y-8">
                   <li class="flex items-center space-x-2 text-gray-400 hover:text-white">
                     <img v-if="post.frontmatter.avatar" :src="'/img/' + post.frontmatter.avatar" alt="author image" class="w-12 h-12 rounded-full" />
                     <img v-else :src="'/logo.png'" alt="logo image" class="w-12 h-12" />

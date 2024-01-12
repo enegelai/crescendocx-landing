@@ -8,7 +8,7 @@ const { frontmatter } = useData();
   <dl class="pt-6 pb-10 xl:pt-6">
     <dt class="sr-only">Authors</dt>
     <dd>
-      <ul class="flex justify-center xl:block space-x-8 sm:space-x-12 xl:space-x-0 xl:space-y-8">
+      <ul class="flex xl:block space-x-8 sm:space-x-12 xl:space-x-0 xl:space-y-8">
         <li class="flex items-center space-x-2">
           <img v-if="frontmatter.avatar" :src="'/img/' + frontmatter.avatar" alt="author image" class="w-12 h-12 rounded-full" />
           <img v-else :src="'/logo.png'" alt="logo image" class="w-12 h-12" />

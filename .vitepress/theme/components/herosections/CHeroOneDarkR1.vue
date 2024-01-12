@@ -4,7 +4,7 @@
       <div class="lg:flex">
         <div class="mx-auto max-w-3xl flex-shrink-0 lg:mx-0 lg:max-w-3xl lg:pt-8">
           <span class="border border-white text-white rounded-xl px-6 py-3"
-            >A letter from us. <a href="#" class="ml-2 font-bold leading-6">Read more <span aria-hidden="true">→</span></a></span
+            >A letter from us. <a href="/blog/announcing_crescendocxai" class="ml-2 font-bold leading-6">Read more <span aria-hidden="true">→</span></a></span
           >
           <h1 class="mt-8 mb-4 max-w-3xl text-[88px] font-serif font-thin tracking-tight leading-tight text-white lg:col-span-2 xl:col-auto">It's all been leading up to this</h1>
           <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
@@ -13,7 +13,7 @@
             </p>
           </div>
           <div class="mt-10 flex items-center gap-x-6">
-            <a href="#whatwedo" class="text-sm font-semibold leading-6 bg-c7o-strobe hover:bg-c7o-strobe-hover px-4 py-2 rounded-3xl text-black">Learn More</a>
+            <a href="#whatwedo" class="text-sm font-semibold leading-6 bg-c7o-strobe hover:bg-c7o-strobe-hover px-4 py-2 rounded-3xl text-black">Say Hello</a>
           </div>
         </div>
         <div class="mx-auto mt-16 max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-grow">

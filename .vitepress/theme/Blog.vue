@@ -8,22 +8,24 @@ import { data as posts } from './posts.data';
 <template>
   <PageHeader></PageHeader>
   <div class="antialiased bg-c7o-strobe-light pb-20">
-    <header class="pt-16 pb-6 sm:text-center">
+    <header class="pt-8 pb-4 lg:pt-16 lg:pb-6 text-center">
       <h1 class="mb-4 text-3xl sm:text-4xl tracking-tight font-serif text-slate-900 font-light dark:text-slate-200">Latest Updates</h1>
     </header>
     <main class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
       <div class="mt-10 space-y-20">
         <article v-for="post in posts" :key="post.id" class="relative isolate flex flex-col gap-8 lg:flex-row">
-          <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
-            <img :src="post.frontmatter.image" alt="" class="absolute inset-0 h-full w-full bg-gray-50 object-cover" />
-            <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
-          </div>
+          <a :href="post.url">
+            <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
+              <img :src="post.frontmatter.image" alt="" class="absolute inset-0 h-full w-full bg-gray-50 object-cover" />
+              <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+            </div>
+          </a>
           <div>
             <div class="flex items-center gap-x-4 text-sm">
               <time :datetime="post.date.time" class="text-gray-500">{{ post.date.string }}</time>
             </div>
             <div class="group relative max-w-xl">
-              <h3 class="mt-3 text-xl font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+              <h3 class="mt-3 text-xl font-semibold leading-6 text-gray-600 group-hover:text-black">
                 <a :href="post.url">
                   <span class="absolute inset-0" />
                   {{ post.title }}
@@ -34,8 +36,8 @@ import { data as posts } from './posts.data';
             <dl class="py-4">
               <dt class="sr-only">Authors</dt>
               <dd>
-                <ul class="flex justify-center xl:block space-x-8 sm:space-x-12 xl:space-x-0 xl:space-y-8">
-                  <li class="flex items-center space-x-2 text-gray-400 hover:text-white">
+                <ul class="flex xl:block space-x-8 sm:space-x-12 xl:space-x-0 xl:space-y-8">
+                  <li class="flex items-center space-x-2 text-gray-600 hover:text-black">
                     <img v-if="post.frontmatter.avatar" :src="'/img/' + post.frontmatter.avatar" alt="author image" class="w-12 h-12 rounded-full" />
                     <img v-else :src="'/logo.png'" alt="logo image" class="w-12 h-12" />
                     <dl class="text-sm font-medium leading-5 whitespace-nowrap">
