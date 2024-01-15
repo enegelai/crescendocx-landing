@@ -1,6 +1,6 @@
 ---
-title: Say Hello
-description: Say Hello
+title: Say hello
+description: Say hello
 date: 2024-01-21
 ---
 <script setup>

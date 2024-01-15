@@ -44,7 +44,7 @@
                 <a href="/blog/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-800">Blog</a>
               </div>
               <div class="py-2">
-                <a href="/company/sayhello" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-800">Say Hello</a>
+                <a href="/company/sayhello" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-800">Say hello</a>
               </div>
             </div>
           </div>

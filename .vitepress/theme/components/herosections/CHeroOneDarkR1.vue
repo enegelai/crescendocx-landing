@@ -13,7 +13,7 @@
             </p>
           </div>
           <div class="mt-10 flex items-center gap-x-6">
-            <a href="/company/sayhello" class="text-sm font-semibold leading-6 bg-c7o-strobe hover:bg-c7o-strobe-hover px-4 py-2 rounded-3xl text-black">Say Hello</a>
+            <a href="/company/sayhello" class="text-sm font-semibold leading-6 bg-c7o-strobe hover:bg-c7o-strobe-hover px-4 py-2 rounded-3xl text-black">Say hello</a>
           </div>
         </div>
         <div class="mx-auto mt-16 max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-grow">
