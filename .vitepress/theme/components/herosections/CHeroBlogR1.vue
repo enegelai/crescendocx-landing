@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-7xl px-6 pb-4 pt-4">
       <div class="flex justify-between items-center">
         <h2 class="text-3xl font-serif font-thin tracking-tight text-white sm:text-4xl">Latest updates</h2>
-        <a :href="/blog/" class="text-xl hover:underline text-white">Read more</a>
+        <a href="/blog/" class="text-xl hover:underline text-white">Read more</a>
       </div>
       <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
         <article v-for="(post, idx) in posts" :key="idx" class="flex flex-col items-start">

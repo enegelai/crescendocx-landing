@@ -2,7 +2,7 @@
   <div class="isolate bg-white px-6 py-24 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Say hello</h2>
-      <p class="mt-2 text-lg leading-8 text-gray-600">Please tell us about yourself</p>
+      <p class="mt-2 text-lg leading-8 text-gray-600">Welcome to the ground floor</p>
     </div>
     <div id="hubspot-sayhello-form" class="mx-auto max-w-2xl text-center"></div>
   </div>

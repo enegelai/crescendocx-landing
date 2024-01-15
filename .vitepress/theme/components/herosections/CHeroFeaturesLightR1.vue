@@ -21,18 +21,24 @@
 
 <script setup>
 import { ref, reactive, computed } from 'vue';
-import { ChartBarIcon, CpuChipIcon, ChatBubbleLeftIcon, CodeBracketIcon, Cog8ToothIcon, CloudArrowUpIcon } from '@heroicons/vue/24/outline';
+import { ChartBarIcon, ChartPieIcon, CursorArrowRaysIcon, CpuChipIcon, ChatBubbleLeftIcon, CodeBracketIcon, Cog8ToothIcon, CloudArrowUpIcon } from '@heroicons/vue/24/outline';
 
 const items = [
   {
-    name: 'High quality CX, in a snap',
-    icon: CpuChipIcon,
+    name: 'Stand out with CX, in a snap',
+    icon: ChartPieIcon,
     description: 'Leave everything to us. We’ll curate an innovative service experience that sets you apart.',
     image: 'https://images.unsplash.com/photo-1498758536662-35b82cd15e29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2102&q=80'
   },
   {
+    name: 'The highest quality agents and technology',
+    icon: CpuChipIcon,
+    description: 'We find an elegant balance between cutting-edge AI and high-touch human service.',
+    image: 'https://images.unsplash.com/photo-1498758536662-35b82cd15e29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2102&q=80'
+  },
+  {
     name: 'Only pay for successful outcomes',
-    icon: CodeBracketIcon,
+    icon: CursorArrowRaysIcon,
     description: 'Our advanced AI means that you can evaluate every interaction to see how well we did. Only pay when we succeed.',
     image: 'https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80'
   },
