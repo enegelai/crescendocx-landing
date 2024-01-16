@@ -1,18 +1,13 @@
 <template>
   <!--<footer class="relative bg-gray-900" aria-labelledby="footer-heading" style="background-image: url('/img/bgwhirllarge.png'); background-repeat:no-repeat;background-position: right center;background-size: cover;">-->
-  <footer class="overflow-hidden relative bg-c7o-night-rider flex">
+  <footer class="overflow-hidden relative bg-c7o-night-rider">
     <!--<img class="z-0 absolute top-10 -right-1/4 opacity-30 w-5/6 -rotate-12" src="/img/bgwhirllarge.png" />-->
-    <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="z-50 mx-auto max-w-7xl px-6 pb-8 pt-8 sm:pt-12 lg:px-2 lg:pt-16">
-      <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+    <div class="mx-auto max-w-7xl px-6 py-10">
+      <div class="md:flex items-start justify-between">
         <div class="">
           <LogoGradient class="w-64 text-gray-300"></LogoGradient>
-          <p class="mt-5 text-md font-bold leading-6 text-indigo-200/80">
-            Harmonize Artificial and Human Intelligence<br />
-            to Re-Imagine Customer Experience
-          </p>
         </div>
-        <div class="mt-16 flex xl:justify-end xl:col-span-2 xl:mt-0">
+        <div class="mt-6 md:mt-0">
           <div>
             <div class="font-mono text-md text-white">CONTACT US</div>
             <div class="flex space-x-6 mt-4 -ml-1">
@@ -23,46 +18,8 @@
             </div>
           </div>
         </div>
-        <!--<div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-          <div class="md:grid md:grid-cols-2 md:gap-8">
-            <div>
-              <h3 class="text-sm font-semibold leading-6 text-white">Products</h3>
-              <ul role="list" class="mt-6 space-y-4">
-                <li v-for="item in navigation.products" :key="item.name">
-                  <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
-                </li>
-              </ul>
-            </div>
-            <div class="mt-10 md:mt-0">
-              <h3 class="text-sm font-semibold leading-6 text-white">Support</h3>
-              <ul role="list" class="mt-6 space-y-4">
-                <li v-for="item in navigation.support" :key="item.name">
-                  <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="md:grid md:grid-cols-2 md:gap-8">
-            <div>
-              <h3 class="text-sm font-semibold leading-6 text-white">Company</h3>
-              <ul role="list" class="mt-6 space-y-4">
-                <li v-for="item in navigation.company" :key="item.name">
-                  <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
-                </li>
-              </ul>
-            </div>
-            <div class="mt-10 md:mt-0">
-              <h3 class="text-sm font-semibold leading-6 text-white">Legal</h3>
-              <ul role="list" class="mt-6 space-y-4">
-                <li v-for="item in navigation.legal" :key="item.name">
-                  <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>-->
       </div>
-      <div class="border-t border-c7o-purple/50 pt-8 mt-6 sm:mt-10 lg:mt-12">
+      <div class="border-t border-c7o-purple/50 py-8 mt-6 sm:mt-10 lg:mt-12">
         <p class="text-xs leading-5 text-gray-200">&copy; 2023-present Crescendo. All rights reserved.</p>
       </div>
     </div>

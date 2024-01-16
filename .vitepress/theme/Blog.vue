@@ -14,12 +14,13 @@ import { data as posts } from './posts.data';
     <main class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
       <div class="mt-10 space-y-20">
         <article v-for="post in posts" :key="post.id" class="relative isolate flex flex-col gap-8 lg:flex-row">
-          <a :href="post.url">
+          <!--<a :href="post.url">
             <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
               <img :src="post.frontmatter.image" alt="" class="absolute inset-0 h-full w-full bg-gray-50 object-cover" />
               <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
             </div>
-          </a>
+          </a>-->
+          <div class="w-[200px]"></div>
           <div>
             <div class="flex items-center gap-x-4 text-sm">
               <time :datetime="post.date.time" class="text-gray-500">{{ post.date.string }}</time>

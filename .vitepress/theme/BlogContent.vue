@@ -8,7 +8,7 @@
         </dd>
       </dl>
     </div>
-    <h1 class="text-2xl font-extrabold tracking-tight text-slate-900 dark:text-slate-200 md:text-3xl">
+    <h1 class="text-2xl font-extrabold tracking-tight text-black dark:text-slate-200 md:text-3xl">
       {{ page.title }}
     </h1>
     <div class="mt-6">
@@ -17,10 +17,10 @@
     <div v-if="frontmatter.image" class="mt-2 mb-6">
       <img :src="frontmatter.image" />
     </div>
-    <div v-else class="mt-2 mb-6">
+    <!--<div v-else class="mt-2 mb-6">
       <img :src="'/img/enegelai.png'" />
-    </div>
-    <Content class="prose prose-slate dark:prose-dark" />
+    </div>-->
+    <Content class="prose prose-gray dark:prose-dark" />
   </div>
 </template>
 
