@@ -1,6 +1,6 @@
 <template>
   <!--<footer class="relative bg-gray-900" aria-labelledby="footer-heading" style="background-image: url('/img/bgwhirllarge.png'); background-repeat:no-repeat;background-position: right center;background-size: cover;">-->
-  <footer class="overflow-hidden relative bg-gray-900 flex">
+  <footer class="overflow-hidden relative bg-c7o-night-rider flex">
     <!--<img class="z-0 absolute top-10 -right-1/4 opacity-30 w-5/6 -rotate-12" src="/img/bgwhirllarge.png" />-->
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="z-50 mx-auto max-w-7xl px-6 pb-8 pt-8 sm:pt-12 lg:px-2 lg:pt-16">
