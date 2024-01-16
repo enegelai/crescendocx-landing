@@ -31,7 +31,7 @@ const items = [
     image: 'https://images.unsplash.com/photo-1498758536662-35b82cd15e29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2102&q=80'
   },
   {
-    name: 'The highest quality agents and technology',
+    name: 'The best of both worlds',
     icon: CpuChipIcon,
     description: 'We find an elegant balance between cutting-edge AI and high-touch human service.',
     image: 'https://images.unsplash.com/photo-1498758536662-35b82cd15e29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2102&q=80'
