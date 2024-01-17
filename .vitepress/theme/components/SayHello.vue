@@ -1,5 +1,5 @@
 <template>
-  <div class="isolate bg-white px-6 py-24 lg:px-8">
+  <div class="isolate bg-c7o-strobe-light px-6 py-24 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Say hello</h2>
       <p class="mt-2 text-lg leading-8 text-gray-600">Welcome to the ground floor</p>
