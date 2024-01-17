@@ -19,6 +19,11 @@ export default defineConfig({
       }
     }
   },
+  vite: {
+    server: {
+      host: '0.0.0.0'
+    }
+  },
   markdown: {
     headers: {
       level: [2, 6]
@@ -150,8 +155,8 @@ export default defineConfig({
       head.push(['meta', { property: 'og:image', content: base + pageData.frontmatter.image }]);
       head.push(['meta', { name: 'twitter:image', content: base + pageData.frontmatter.image }]);
     } else {
-      head.push(['meta', { property: 'og:image', content: base + '/img/crescendocx.png' }]);
-      head.push(['meta', { name: 'twitter:image', content: base + '/img/crescendocx.png' }]);
+      head.push(['meta', { property: 'og:image', content: base + '/logolarge.jpg' }]);
+      head.push(['meta', { name: 'twitter:image', content: base + '/logolarge.jpg' }]);
     }
 
     return head;

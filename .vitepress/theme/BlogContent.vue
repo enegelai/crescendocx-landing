@@ -1,5 +1,5 @@
 <template>
-  <div class="min-w-0 flex-auto px-4 sm:px-6 xl:px-8 pt-10 pb-24 lg:pb-16">
+  <div class="min-w-0 flex-auto px-6 sm:px-6 xl:px-8 pt-10 pb-24 lg:pb-16">
     <div class="text-sm leading-6 mb-6">
       <dl>
         <dt class="sr-only">Date</dt>

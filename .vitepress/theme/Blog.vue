@@ -11,7 +11,7 @@ import { data as posts } from './posts.data';
     <header class="pt-8 pb-4 lg:pt-16 lg:pb-6 text-center">
       <h1 class="mb-4 text-3xl sm:text-4xl tracking-tight font-serif text-slate-900 font-light dark:text-slate-200">Latest Updates</h1>
     </header>
-    <main class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
+    <main class="max-w-3xl mx-auto px-6 sm:px-6 xl:max-w-5xl xl:px-0">
       <div class="mt-10 space-y-20">
         <article v-for="post in posts" :key="post.id" class="relative isolate flex flex-col gap-8 lg:flex-row">
           <!--<a :href="post.url">

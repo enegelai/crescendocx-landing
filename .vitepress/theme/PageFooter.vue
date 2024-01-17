@@ -9,7 +9,7 @@
         </div>
         <div class="mt-6 md:mt-0">
           <div>
-            <div class="font-mono text-md text-white">CONTACT US</div>
+            <div class="text-lg text-white">Follow us</div>
             <div class="flex space-x-6 mt-4 -ml-1">
               <a v-for="item in navigation.social" :key="item.name" :href="item.href" target="_blank" class="text-white hover:text-gray-400">
                 <span class="sr-only">{{ item.name }}</span>

@@ -4,7 +4,7 @@
       <div class="lg:flex">
         <div class="mx-auto max-w-3xl flex-shrink-0 lg:mx-0 lg:max-w-3xl lg:pt-8">
           <span class="border border-white text-white rounded-xl px-6 py-3"
-            >A letter from us. <a href="/blog/announcing_crescendocxai" class="ml-2 font-bold leading-6">Read more <span aria-hidden="true">→</span></a></span
+            >A letter from us. <a href="/blog/crescendo_launch" class="ml-2 font-bold leading-6">Read more <span aria-hidden="true">→</span></a></span
           >
           <h1 class="mt-8 mb-4 max-w-3xl text-[88px] font-serif font-thin tracking-tight leading-tight text-white lg:col-span-2 xl:col-auto">It's all been leading up to this</h1>
           <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
