@@ -26,7 +26,7 @@
       </div>
       <div class="mt-10 mb-4 py-6 md:flex items-center justify-between border-t border-c7o-purple/50">
         <div class="my-2 text-gray-300 font-semibold text-xl">SUPPORTED BY</div>
-        <div class="md:flex justify-between items-start">
+        <div class="md:flex md:justify-between md:items-start">
           <a href="https://www.generalcatalyst.com/" target="_blank">
             <svg class="mt-2 mr-4 text-white h-8" viewBox="0 0 979 135" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -43,7 +43,7 @@
               ></path>
             </svg>
           </a>
-          <a href="https://www.alorica.com/" target="_blank">
+          <a href="https://www.alorica.com/" target="_blank" class="md:ml-2 md:pl-6 md:pb-3 md:border-l md:border-c7o-purple/50">
             <svg class="text-white h-8" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203 57">
               <path
                 d="M0,46.16V46C0,39,5.31,35.31,13.24,35.31a25.74,25.74,0,0,1,8.12,1.32v-.56c0-3.53-2.18-5.55-6.74-5.55a23.73,23.73,0,0,0-9.31,1.89L2.87,24a33.61,33.61,0,0,1,13.68-2.65c6.06,0,10.18,1.45,12.88,4.16C32,28,33.05,31.53,33.05,36.32V55.93H21.3V52.41a12.7,12.7,0,0,1-9.93,4.28C4.93,56.69,0,53,0,46.16m21.48-2.59V42a12.38,12.38,0,0,0-4.62-.88c-3.43,0-5.43,1.7-5.43,4.22v.13c0,2.33,1.75,3.72,4.19,3.72,3.43,0,5.86-2.21,5.86-5.62"
