@@ -11,7 +11,7 @@
               <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-c7o-purple-dark"><component :is="feature.icon" class="h-6 w-6 text-white" aria-hidden="true" /></div>
               {{ feature.name }}
             </dt>
-            <dd class="mt-6 text-lg leading-7 text-gray-600">{{ feature.description }}</dd>
+            <div class="mt-6 text-lg leading-7 text-gray-600 max-w-xs">{{ feature.description }}</div>
           </div>
         </dl>
       </div>
@@ -43,16 +43,15 @@ const items = [
     image: 'https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80'
   },
   {
-    name: 'The most advanced AI',
-    icon: CloudArrowUpIcon,
-    description: 'We built Crescendo’s c7o.ai platform on the most advanced AI available. It’s an exclusive, patent-pending technology tailored to deliver consistently outstanding CX.',
-    image: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80'
-  },
-
-  {
     name: 'We invest in our teams',
     icon: Cog8ToothIcon,
     description: 'Agents that are treated well treat customers well. That’s why we invest significantly in our team and use advanced AI to help them do their jobs.',
+    image: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80'
+  },
+  {
+    name: 'The most advanced AI',
+    icon: CloudArrowUpIcon,
+    description: 'We built Crescendo’s c7o.ai platform on the most advanced AI available. It’s an exclusive, patent-pending technology tailored to deliver consistently outstanding CX.',
     image: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80'
   },
   {
