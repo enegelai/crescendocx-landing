@@ -27,7 +27,7 @@
                       <dt class="sr-only">Name</dt>
                       <dd class="text-lg">
                         <a
-                          :href="post.frontmatter.linkedin ? 'https://www.linkedin.com/in/' + post.frontmatter.linkedin : 'https://www.linkedin.com/company/enegel-ai'"
+                          :href="post.frontmatter.linkedin ? 'https://www.linkedin.com/in/' + post.frontmatter.linkedin : 'https://www.linkedin.com/company/crescendocx'"
                           target="_blank"
                           rel="noopnener noreferrer"
                           class="link"
@@ -37,7 +37,7 @@
                       <dt class="sr-only">LinkedIn</dt>
                       <dd>
                         <a
-                          :href="post.frontmatter.linkedin ? 'https://www.linkedin.com/in/' + post.frontmatter.linkedin : 'https://www.linkedin.com/company/enegel-ai'"
+                          :href="post.frontmatter.linkedin ? 'https://www.linkedin.com/in/' + post.frontmatter.linkedin : 'https://www.linkedin.com/company/crescendocx'"
                           target="_blank"
                           rel="noopnener noreferrer"
                           class="text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white link"

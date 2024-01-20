@@ -59,7 +59,7 @@ const navigation = {
   social: [
     {
       name: 'LinkedIn',
-      href: 'https://www.linkedin.com/company/enegel-ai',
+      href: 'https://www.linkedin.com/company/crescendocx',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 48 48' }, [

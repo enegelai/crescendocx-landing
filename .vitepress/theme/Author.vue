@@ -16,7 +16,7 @@ const { frontmatter } = useData();
             <dt class="sr-only">Name</dt>
             <dd class="text-slate-700 hover:text-slate-900 dark:text-slate-200 text-lg dark:hover:text-white">
               <a
-                :href="frontmatter.linkedin ? 'https://www.linkedin.com/in/' + frontmatter.linkedin : 'https://www.linkedin.com/company/enegel-ai'"
+                :href="frontmatter.linkedin ? 'https://www.linkedin.com/in/' + frontmatter.linkedin : 'https://www.linkedin.com/company/crescendocx'"
                 target="_blank"
                 rel="noopnener noreferrer"
                 class="text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white link"
@@ -26,7 +26,7 @@ const { frontmatter } = useData();
             <dt class="sr-only">LinkedIn</dt>
             <dd>
               <a
-                :href="frontmatter.linkedin ? 'https://www.linkedin.com/in/' + frontmatter.linkedin : 'https://www.linkedin.com/company/enegel-ai'"
+                :href="frontmatter.linkedin ? 'https://www.linkedin.com/in/' + frontmatter.linkedin : 'https://www.linkedin.com/company/crescendocx'"
                 target="_blank"
                 rel="noopnener noreferrer"
                 class="text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white link"
