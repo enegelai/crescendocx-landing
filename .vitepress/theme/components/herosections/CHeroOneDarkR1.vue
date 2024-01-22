@@ -9,7 +9,7 @@
           <h1 class="mt-8 mb-4 max-w-3xl text-[88px] font-serif font-thin tracking-tight leading-tight text-white lg:col-span-2 xl:col-auto">It's all been leading up to this</h1>
           <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
             <p class="text-xl leading-8 text-white">
-              Our groundbreaking service combines AI and human expertise to ensure top-quality customer experience. <br />We're so confident in it, we only get rewarded for success.
+              Our groundbreaking service combines AI and human expertise to deliver top-quality customer experience.<br />We're so confident in it, we only get rewarded for success.
             </p>
           </div>
           <div class="mt-10 flex items-center gap-x-6">
