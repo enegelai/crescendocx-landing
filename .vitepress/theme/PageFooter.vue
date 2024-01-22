@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="border-t border-c7o-purple/50 py-8 mt-6 sm:mt-10 lg:mt-12">
-        <p class="text-xs leading-5 text-gray-200">&copy; 2023-present Crescendo. All rights reserved.</p>
+        <p class="text-xs leading-5 text-gray-200">&copy; 2023-present CRESCENDOAI INC. All rights reserved.</p>
       </div>
     </div>
   </footer>
