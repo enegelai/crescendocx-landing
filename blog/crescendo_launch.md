@@ -3,11 +3,11 @@ title: "It’s all been leading up to this"
 date: 2024-01-21
 author: Crescendo
 avatar: logo.jpg
-description: "We are proud to announce the launch of Crescendo. We stand at the forefront of innovation in customer service, aiming to radically transform how businesses interact with and serve their customers."
+description: "The true potential of AI will be unlocked by CX companies that can disrupt long-standing industry challenges."
 keywords: "Conversational Intelligence, Generative AI, Crescendo, CX, Customer Experience, CX Improvement, Customer Satisfaction" 
 ---
 
-We are proud to announce the launch of Crescendo. We stand at the forefront of innovation in customer service, aiming to radically transform how businesses interact with and serve their customers.
+The true potential of AI will be unlocked by CX companies that can disrupt long-standing industry challenges.
 
 ---
 
