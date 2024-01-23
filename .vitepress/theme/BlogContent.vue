@@ -20,7 +20,7 @@
     <!--<div v-else class="mt-2 mb-6">
       <img :src="'/img/enegelai.png'" />
     </div>-->
-    <Content class="prose prose-gray dark:prose-dark" />
+    <Content class="prose prose-gray dark:prose-dark crescendo-blog-content" />
   </div>
 </template>
 
@@ -52,3 +52,10 @@ export default {
   }
 };
 </script>
+
+<style>
+.crescendo-blog-content hr {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+</style>
