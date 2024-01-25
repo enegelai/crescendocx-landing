@@ -9,11 +9,11 @@
         </div>
         <div class="mt-6 md:mt-0">
           <div>
-            <div class="text-lg text-white">Follow us</div>
-            <div class="flex space-x-6 mt-4 -ml-1">
+            <div class="flex space-x-6">
               <a v-for="item in navigation.social" :key="item.name" :href="item.href" target="_blank" class="text-white hover:text-gray-400">
                 <span class="sr-only">{{ item.name }}</span>
-                <component :is="item.icon" class="text-c7o-purple-darker h-10 w-10" aria-hidden="true" />
+                <div class="text-lg text-white">Follow us</div>
+                <component :is="item.icon" class="text-c7o-purple-darker h-10 w-10 -ml-1" aria-hidden="true" />
               </a>
             </div>
           </div>
