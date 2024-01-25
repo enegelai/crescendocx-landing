@@ -6,7 +6,7 @@
         <p class="mt-6 text-lg leading-8 text-gray-600">We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.</p>
       </div>
       <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
-        <div class="text-2xl text-gray-500">PLACEHOLDER</div>
+        <div class="text-2xl text-gray-500"></div>
         <li v-for="person in people" :key="person.name">
           <div class="flex items-center gap-x-6">
             <img class="h-16 w-16 rounded-full" :src="person.imageUrl" alt="" />

@@ -1,6 +1,6 @@
 ---
 title: "It’s all been leading up to this"
-date: 2024-01-21
+date: 2024-01-25
 author: Crescendo
 avatar: logo.jpg
 description: "The true potential of AI will be unlocked by CX companies that can disrupt long-standing industry challenges."
