@@ -54,7 +54,7 @@ export default defineConfig({
       'script',
       {
         async: '',
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-9YYSL8KCZV'
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-2C9NK1S9D3'
       }
     ],
     [
@@ -63,7 +63,7 @@ export default defineConfig({
         src: '//js.hsforms.net/forms/embed/v2.js'
       }
     ],
-    ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-9YYSL8KCZV');"]
+    ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-2C9NK1S9D3');"]
     /*
     [
       'script',
