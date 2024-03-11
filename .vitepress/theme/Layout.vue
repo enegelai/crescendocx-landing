@@ -1,5 +1,8 @@
 <template>
   <div class="antialiased text-slate-500 dark:text-slate-400 bg-c7o-night-rider">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXCBS8HS" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <Home v-if="isIndex" />
     <!--<NotFound v-else-if="isNotFound" />-->
     <Blog v-else-if="isBlogHome" />
