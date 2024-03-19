@@ -156,9 +156,10 @@ export default defineConfig({
       head.push(['meta', { name: 'keywords', content: pageData.frontmatter.keywords }]);
     }
 
-    if (pageData?.frontmatter?.image) {
-      head.push(['meta', { property: 'og:image', content: base + pageData.frontmatter.image }]);
-      head.push(['meta', { name: 'twitter:image', content: base + pageData.frontmatter.image }]);
+    if (pageData?.frontmatter?.image || pageData?.frontmatter?.ogimage) {
+      const img = pageData?.frontmatter?.image || pageData?.frontmatter?.ogimage;
+      head.push(['meta', { property: 'og:image', content: base + img }]);
+      head.push(['meta', { name: 'twitter:image', content: base + img }]);
     } else {
       head.push(['meta', { property: 'og:image', content: base + '/logolarge.jpg' }]);
       head.push(['meta', { name: 'twitter:image', content: base + '/logolarge.jpg' }]);

@@ -7,7 +7,7 @@ description: "The true potential of AI will be unlocked by CX companies that can
 keywords: "Conversational Intelligence, Generative AI, Crescendo, CX, Customer Experience, CX Improvement, Customer Satisfaction" 
 ---
 
-Why it’s not so easy to recreate a transformation
+Why it’s not so easy to recreate a transformation.
 
 ---
 
