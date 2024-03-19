@@ -53,8 +53,8 @@ This innovative tech-human partnership gives us unprecedented insight into every
 ## Business insights
 The final piece of our c7o.ai platform is our Business Insights dashboard.
 
-![Business Insights Report 1](/img/blog/introducing_c7o_platform/screen1.png)
-![Business Insights Report 2](/img/blog/introducing_c7o_platform/screen2.png)
+![Business Insights Report 1](/img/blog/introducing_c7o_platform/screenshot1.png)
+![Business Insights Report 2](/img/blog/introducing_c7o_platform/screenshot2.png)
 
 We believe in complete transparency. We provide 100% transcription and customer satisfaction analysis, supporting our quality guarantee. If we fall short of your service expectations, we offer account credits.
 Beyond individual interactions, we see your CX conversations as a trove of valuable business intelligence. The c7o.ai platform analyzes them to inform your strategic decisions. For example, it can summarize the most common reasons for product returns, or highlight frequent product issues that lead to customer complaints. This analysis empowers our clients to make data-driven decisions focused on customer satisfaction and business growth.
