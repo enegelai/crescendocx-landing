@@ -14,7 +14,8 @@
       <div class="hidden lg:flex items-center">
         <!--<a href="/blog/" class="mr-4 text-sm font-semibold leading-6 text-gray-100">Blog</a>-->
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="/company/sayhello" class="text-sm font-semibold leading-6 bg-c7o-strobe hover:bg-c7o-strobe-hover px-4 py-2 rounded-3xl text-black">Say hello</a>
+          <a href="https://crescendo-cx.com/get-started" target="_blank" class="text-sm font-semibold leading-6 bg-c7o-strobe hover:bg-c7o-strobe-hover px-4 py-2 rounded-3xl text-black">Get started</a>
+          <!--<a href="/company/sayhello" class="text-sm font-semibold leading-6 bg-c7o-strobe hover:bg-c7o-strobe-hover px-4 py-2 rounded-3xl text-black">Say hello</a>-->
         </div>
       </div>
     </nav>
