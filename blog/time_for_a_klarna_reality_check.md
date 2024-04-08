@@ -37,6 +37,7 @@ Here’s what we suggest. First, divide your service into frontline and expert. 
 
 Crescendo is your frontline sales and service option for the AI age. We promise to create higher quality, cheaper customer experience. And you won’t need to wait months or get a degree in LLMs. (We have those). We’ll do it all in days — and you’ll only pay for successful outcomes.
 
-Let’s talk about how we can accelerate your transformation. [Get in touch with us today.](https://www.crescendocx.ai/company/sayhello)
+Let’s talk about how we can accelerate your transformation. 
 
+[Get in touch with us today.](https://crescendo-cx.com/get-started)
 

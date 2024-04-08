@@ -43,6 +43,5 @@ If you’re ready to leave your call center behind, we want to hear from you. He
 
 Send us a note using the link below. Let’s envision a new kind of customer experience career, together.
 
-[Get in touch with us today.](https://www.crescendocx.ai/company/sayhello)
-
+[Get in touch with us today.](https://crescendo-cx.com/get-started)
 

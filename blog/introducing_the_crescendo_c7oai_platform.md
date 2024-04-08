@@ -68,6 +68,5 @@ We all know that the integration of Generative AI into CX heralds big changes in
 
 This is what makes Crescendo special. We look forward to sharing more with you as we grow, and extend our heartfelt gratitude to our early customers for their collaborative efforts in refining our offering.
 
-[Get in touch with us today.](https://www.crescendocx.ai/company/sayhello)
-
+[Get in touch with us today.](https://crescendo-cx.com/get-started)
 
