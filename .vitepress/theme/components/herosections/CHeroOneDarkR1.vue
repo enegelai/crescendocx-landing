@@ -6,7 +6,7 @@
           <span class="border border-white text-white rounded-xl px-6 py-3"
             >The c7o.ai platform. <a href="/blog/introducing_the_crescendo_c7oai_platform" class="ml-2 font-bold leading-6">Read more <span aria-hidden="true">→</span></a></span
           >
-          <h1 class="mt-8 mb-4 max-w-3xl text-[88px] font-serif font-thin tracking-tight leading-tight text-white lg:col-span-2 xl:col-auto">Look inside the c7o.ai platform</h1>
+          <h1 class="mt-8 mb-4 max-w-3xl text-[88px] font-serif font-thin tracking-tight leading-tight text-white lg:col-span-2 xl:col-auto">Transition to AI-powered support. With us, it’s easy.</h1>
           <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
             <p class="text-xl leading-8 text-white">
               Our groundbreaking service combines AI and human<br />
