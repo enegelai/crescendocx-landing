@@ -13,6 +13,7 @@
   <div class="space-y-20 sm:space-y-32 md:space-y-40 lg:space-y-44 overflow-hidden bg-slate-50 dark:bg-[#0B1120]">
     <div class="relative z-10 mx-auto">
       <CHeroOneDarkR1></CHeroOneDarkR1>
+      <CHeroVideo></CHeroVideo>
       <CHeroFeaturesLightR1></CHeroFeaturesLightR1>
       <CHeroBlogR2></CHeroBlogR2>
       <!--<CHeroOne></CHeroOne>
@@ -35,6 +36,7 @@ import CHeroOneDarkR1 from './components/herosections/CHeroOneDarkR1.vue';
 import CHeroTwoLight from './components/herosections/CHeroTwoLight.vue';
 import CHeroTwoDark from './components/herosections/CHeroTwoDark.vue';
 import CHeroFeaturesLightR1 from './components/herosections/CHeroFeaturesLightR1.vue';
+import CHeroVideo from './components/herosections/CHeroVideo.vue';
 import CHeroBlogR2 from './components/herosections/CHeroBlogR2.vue';
 import HeroTwo from './components/herosections/HeroTwo.vue';
 import HeroThree from './components/herosections/HeroThree.vue';

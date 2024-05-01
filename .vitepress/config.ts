@@ -82,6 +82,12 @@ export default defineConfig({
         rel: 'stylesheet',
         href: 'https://unpkg.com/@enegelai/bot-widget/dist/enegelaibot.css'
       }
+    ],
+    [
+      'script',
+      {
+        src: 'https://player.vimeo.com/api/player.js'
+      }
     ]
     /*
     [

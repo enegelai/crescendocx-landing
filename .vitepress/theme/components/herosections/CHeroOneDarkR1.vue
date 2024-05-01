@@ -6,7 +6,7 @@
           <span class="border border-white text-white rounded-xl px-6 py-3"
             >The c7o.ai platform. <a href="/blog/introducing_the_crescendo_c7oai_platform" class="ml-2 font-bold leading-6">Read more <span aria-hidden="true">→</span></a></span
           >
-          <h1 class="mt-8 mb-4 max-w-3xl text-[88px] font-serif font-thin tracking-tight leading-tight text-white lg:col-span-2 xl:col-auto">Transition to AI-powered support. With us, it’s easy.</h1>
+          <h1 class="mt-8 mb-4 max-w-3xl text-[88px] font-serif font-thin tracking-tight leading-tight text-white lg:col-span-2 xl:col-auto">Answer the call of AI-powered support. With us, it’s easy.</h1>
           <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
             <p class="text-xl leading-8 text-white">
               Our groundbreaking service combines AI and human<br />
@@ -16,6 +16,10 @@
           </div>
           <div class="mt-10 flex items-center gap-x-6">
             <a href="https://crescendo-cx.com/get-started" target="_blank" class="text-sm font-semibold leading-6 bg-c7o-strobe hover:bg-c7o-strobe-hover px-4 py-2 rounded-3xl text-black">Get started</a>
+            <a href="#herovideo" class="flex items-center gap-x-2 text-sm font-semibold leading-6 px-4 py-2 rounded-3xl border border-gray-400 text-white" @click="onPlayVideo">
+              <div>Watch Video</div>
+              <PlayCircleIcon class="h-6 w-6 text-gray-400" />
+            </a>
           </div>
         </div>
         <div class="mx-auto mt-16 max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-grow">
@@ -76,6 +80,20 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue';
 import { ChevronRightIcon } from '@heroicons/vue/20/solid';
-import { CursorArrowRaysIcon } from '@heroicons/vue/24/outline/index.js';
+import { CursorArrowRaysIcon, PlayCircleIcon } from '@heroicons/vue/24/outline/index.js';
+
+let vimeoPlayer = null;
+
+function onPlayVideo() {
+  if (vimeoPlayer) {
+    vimeoPlayer.play();
+  }
+}
+
+onMounted(() => {
+  const iframe = document.querySelector('iframe');
+  vimeoPlayer = new Vimeo.Player(iframe);
+});
 </script>
