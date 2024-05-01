@@ -2,6 +2,7 @@
   <!--<footer class="relative bg-gray-900" aria-labelledby="footer-heading" style="background-image: url('/img/bgwhirllarge.png'); background-repeat:no-repeat;background-position: right center;background-size: cover;">-->
   <footer class="overflow-hidden relative bg-c7o-night-rider">
     <!--<img class="z-0 absolute top-10 -right-1/4 opacity-30 w-5/6 -rotate-12" src="/img/bgwhirllarge.png" />-->
+
     <div class="mx-auto max-w-7xl px-6 py-10">
       <div class="md:flex items-start justify-between">
         <div class="">

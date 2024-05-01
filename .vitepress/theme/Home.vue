@@ -14,6 +14,7 @@
     <div class="relative z-10 mx-auto">
       <CHeroOneDarkR1></CHeroOneDarkR1>
       <CHeroVideo></CHeroVideo>
+      <CHeroSupportedDarkR1 />
       <CHeroFeaturesLightR1></CHeroFeaturesLightR1>
       <CHeroBlogR2></CHeroBlogR2>
       <!--<CHeroOne></CHeroOne>
@@ -36,6 +37,7 @@ import CHeroOneDarkR1 from './components/herosections/CHeroOneDarkR1.vue';
 import CHeroTwoLight from './components/herosections/CHeroTwoLight.vue';
 import CHeroTwoDark from './components/herosections/CHeroTwoDark.vue';
 import CHeroFeaturesLightR1 from './components/herosections/CHeroFeaturesLightR1.vue';
+import CHeroSupportedDarkR1 from './components/herosections/CHeroSupportedDarkR1.vue';
 import CHeroVideo from './components/herosections/CHeroVideo.vue';
 import CHeroBlogR2 from './components/herosections/CHeroBlogR2.vue';
 import HeroTwo from './components/herosections/HeroTwo.vue';

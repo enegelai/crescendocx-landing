@@ -1,37 +1,7 @@
 <template>
-  <div class="relative isolate overflow-hidden bg-c7o-night-rider pb-16">
-    <div class="mx-auto max-w-7xl px-6 pb-4 pt-20">
-      <div class="lg:flex">
-        <div class="mx-auto max-w-3xl flex-shrink-0 lg:mx-0 lg:max-w-3xl lg:pt-8">
-          <span class="border border-white text-white rounded-xl px-6 py-3"
-            >The c7o.ai platform. <a href="/blog/introducing_the_crescendo_c7oai_platform" class="ml-2 font-bold leading-6">Read more <span aria-hidden="true">→</span></a></span
-          >
-          <h1 class="mt-8 mb-4 max-w-3xl text-[88px] font-serif font-thin tracking-tight leading-tight text-white lg:col-span-2 xl:col-auto">Answer the call of AI-powered support. With us, it’s easy.</h1>
-          <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-            <p class="text-xl leading-8 text-white">
-              Our groundbreaking service combines AI and human<br />
-              expertise to deliver top-quality customer experience.<br />
-              We're so confident in it, we only get rewarded for success.
-            </p>
-          </div>
-          <div class="mt-10 flex items-center gap-x-6">
-            <a href="https://crescendo-cx.com/get-started" target="_blank" class="text-sm font-semibold leading-6 bg-c7o-strobe hover:bg-c7o-strobe-hover px-4 py-2 rounded-3xl text-black">Get started</a>
-            <a href="#herovideo" class="flex items-center gap-x-2 text-sm font-semibold leading-6 px-4 py-2 rounded-3xl border border-gray-400 text-white" @click="onPlayVideo">
-              <div>Watch Video</div>
-              <PlayCircleIcon class="h-6 w-6 text-gray-400" />
-            </a>
-          </div>
-        </div>
-        <div class="mx-auto mt-16 max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-grow">
-          <!--<img
-          src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80"
-          alt=""
-          class="mt-5 aspect-[5/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2"
-        />-->
-        </div>
-      </div>
-      <!--
-      <div class="mt-10 mb-4 py-6 md:flex items-center justify-between border-t border-c7o-purple/50">
+  <div class="relative isolate overflow-hidden bg-c7o-night-rider">
+    <div class="mx-auto max-w-7xl px-6 pb-8 pt-4">
+      <div class="mt-10 mb-4 py-6 md:flex items-center justify-between">
         <div class="my-2 text-gray-300 font-semibold text-xl">SUPPORTED BY</div>
         <div class="md:flex md:justify-between md:items-start">
           <a href="https://www.generalcatalyst.com/perspectives/our-creation-of-crescendo" target="_blank">
@@ -76,26 +46,6 @@
           </a>
         </div>
       </div>
-      -->
     </div>
   </div>
 </template>
-
-<script setup>
-import { onMounted } from 'vue';
-import { ChevronRightIcon } from '@heroicons/vue/20/solid';
-import { CursorArrowRaysIcon, PlayCircleIcon } from '@heroicons/vue/24/outline/index.js';
-
-let vimeoPlayer = null;
-
-function onPlayVideo() {
-  if (vimeoPlayer) {
-    vimeoPlayer.play();
-  }
-}
-
-onMounted(() => {
-  const iframe = document.querySelector('iframe');
-  vimeoPlayer = new Vimeo.Player(iframe);
-});
-</script>
