@@ -121,7 +121,12 @@ export default defineConfig({
     });
     const writeStream = createWriteStream(path.resolve(outDir, 'sitemap.xml'));
     sitemap.pipe(writeStream);
-    links.forEach((link) => sitemap.write(link));
+    links.forEach((link) => {
+      //console.log(`Sitemap link:`, link);
+      if (link.url !== 'subprocessors') {
+        sitemap.write(link);
+      }
+    });
     sitemap.end();
     await new Promise((r) => writeStream.on('finish', r));
   },

@@ -9,6 +9,7 @@
     <BusinessCases v-else-if="isResourcesHome" />
     <Product v-else-if="isProductHome" />
     <BlogLayout v-else-if="isBlogPage" />
+    <DocLayout v-else-if="isDocPage" />
     <PageLayout v-else />
   </div>
 </template>
@@ -24,6 +25,7 @@ import Product from './Product.vue';
 import BusinessCases from './BusinessCases.vue';
 import BlogLayout from './BlogLayout.vue';
 import PageLayout from './PageLayout.vue';
+import DocLayout from './DocLayout.vue';
 
 const route = useRoute();
 const { page, frontmatter } = useData();
@@ -33,6 +35,7 @@ const isBlogHome = computed(() => frontmatter.value.isBlogHome);
 const isResourcesHome = computed(() => frontmatter.value.isResourcesHome);
 const isProductHome = computed(() => frontmatter.value.isProductHome);
 const isBlogPage = computed(() => page.value.filePath.startsWith('blog/') || page.value.filePath.startsWith('resources/'));
+const isDocPage = computed(() => page.value.filePath === 'subprocessors.md');
 
 onMounted(() => {
   document.documentElement.classList.remove('dark');
