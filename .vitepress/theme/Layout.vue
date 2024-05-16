@@ -35,7 +35,7 @@ const isBlogHome = computed(() => frontmatter.value.isBlogHome);
 const isResourcesHome = computed(() => frontmatter.value.isResourcesHome);
 const isProductHome = computed(() => frontmatter.value.isProductHome);
 const isBlogPage = computed(() => page.value.filePath.startsWith('blog/') || page.value.filePath.startsWith('resources/'));
-const isDocPage = computed(() => page.value.filePath === 'subprocessors.md');
+const isDocPage = computed(() => page.value.filePath === 'subprocessors.md' || page.value.filePath === 'msa.md');
 
 onMounted(() => {
   document.documentElement.classList.remove('dark');

@@ -123,7 +123,7 @@ export default defineConfig({
     sitemap.pipe(writeStream);
     links.forEach((link) => {
       //console.log(`Sitemap link:`, link);
-      if (link.url !== 'subprocessors') {
+      if (link.url !== 'subprocessors' && link.url !== 'msa') {
         sitemap.write(link);
       }
     });

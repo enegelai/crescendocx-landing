@@ -1,7 +1,7 @@
 <template>
   <PageHeader></PageHeader>
 
-  <div class="bg-c7o-strobe-light">
+  <div class="bg-c7o-strobe-light min-h-[500px]">
     <div class="w-full mx-auto max-w-4xl lg:flex">
       <Content class="prose prose-gray dark:prose-dark crescendo-blog-content" />
     </div>
