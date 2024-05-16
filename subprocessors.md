@@ -1,19 +1,20 @@
 ---
 title: Subprocessors
 description: Subprocessors
-date: 2024-05-15
+date: 2024-05-16
 ---
 
 
 ## Crescendo Third-Party Subprocessors & Crescendo Affiliates
 
-**Effective May 2024**
+Updated May 16, 2024
 
-The following table describes the countries and legal entities engaged in the processing and storage of personal data by Crescendo acting as a data processor on behalf of its customers, the data controllers.
+To support the delivery of our service, Crescendo engages certain Sub Processors to Process Customer Personal Data in accordance with the terms and conditions of our Data Processing Addendum (available at https://www.crescendocx.ai/msa).
 
-### Crescendo Authorized Subprocessors
+The following table lists the Sub Processors, their function, and location.
 
-| **Name**              | **Purpose**                           | **Data Shared with Subprocessor**                                                  | **Location** | **Additional Safeguards**<br/>(links to subprocessor resources)                                                  |
+
+| **Name**              | **Purpose**                           | **Data Shared with Subprocessor**                                                  | **Location** | **Links to subprocessor resources**                                                                              |
 |-----------------------|---------------------------------------|------------------------------------------------------------------------------------| --- |------------------------------------------------------------------------------------------------------------------|
 | Google Cloud Platform | Cloud Service Provider                | *   Real-time application<br>*   Storage of data and                               | United States | [Privacy Resource Center](https://cloud.google.com/privacy)                                                      |
 | Google Palm 2, Gemini | AI Service Provider                   | *   Transcripts                                                                    | United States | [Privacy Resource Center](https://cloud.google.com/privacy)                                                      |
