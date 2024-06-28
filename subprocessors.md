@@ -27,3 +27,11 @@ The following table lists the Sub Processors, their function, and location.
 | Slack                 | Messaging                             | *   Transcripts                                                                    | United States | [Slack Privacy Policy](https://slack.com/trust/privacy/privacy-policy)                                           |
 | Redis                 | Cache                                 | *   Transcripts                                                                    | United States | [Redis Privacy Policy](https://redis.io/legal/privacy-policy/)                                                   |
 | Elastic               | Analytics Data Storage                | *   Reporting data                                                                 |     | [Elastic Privacy Policy](https://www.elastic.co/trust/security-and-compliance)                                   |
+
+
+<script setup>
+import SubprocessorsSubscribe from './.vitepress/theme/components/SubprocessorsSubscribe.vue'
+</script>
+<ClientOnly>
+<SubprocessorsSubscribe />
+</ClientOnly>
