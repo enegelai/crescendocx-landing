@@ -3,6 +3,7 @@ title: "85% Isn’t Good Enough: What it Takes to Get Generative AI into Product
 date: 2024-06-19
 author: Tod Famous
 avatar: "Tod Famous Pic.png"
+linkedin: "tfamous"
 ogimage: "/logoblog.png"
 description: "The tech only gets you to 85%.  You need a great deal of AI expertise, use case expertise, and process to get to production."
 keywords: "Conversational Intelligence, Generative AI, Crescendo, CX, Customer Experience, CX Improvement, Customer Satisfaction" 

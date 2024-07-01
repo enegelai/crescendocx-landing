@@ -3,6 +3,7 @@ title: "Breaking: GPT-4o How will it impact CX?"
 date: 2024-05-13
 author: Tod Famous
 avatar: "Tod Famous Pic.png"
+linkedin: "tfamous"
 ogimage: "/logoblog.png"
 description: "GPT-4o - How will it impact CX?"
 keywords: "Conversational Intelligence, Generative AI, Crescendo, CX, Customer Experience, CX Improvement, Customer Satisfaction" 

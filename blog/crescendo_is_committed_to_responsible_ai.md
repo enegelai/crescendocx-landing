@@ -3,6 +3,7 @@ title: "Crescendo is committed to responsible AI"
 date: 2024-05-28
 author: Slava Zhakov
 avatar: Slava Pic 6.png
+linkedin: "slavazhakov"
 ogimage: "/img/blog/responsible_ai.png"
 description: "Responsible AI is at the heart of everything we do. We believe in the power of AI to enhance customer experience, but never at the cost of privacy."
 keywords: "Conversational Intelligence, Generative AI, Crescendo, CX, Customer Experience, CX Improvement, Customer Satisfaction" 
