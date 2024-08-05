@@ -17,6 +17,7 @@
                   <component :is="item.icon" :class="['-ml-1 mr-2', item.iconClass]" aria-hidden="true" />
                   <div v-if="item.text" class="text-sm font-semibold text-white">{{ item.text }}</div>
                 </div>
+                <div v-if="item.subtext" class="max-w-[160px] text-xs text-gray-300">{{ item.subtext }}</div>
               </a>
             </div>
           </div>
@@ -86,11 +87,11 @@ const navigation = {
           ])
       })
     },
-    /*
     {
       name: 'Call or Text us',
       //href: 'mailto:info@crescendocx.ai',
-      text: '+1 (650) 719-7745',
+      text: '+1 (888) 410-8077',
+      subtext: 'Please note that message and data rates from your carrier may apply.',
       iconClass: 'text-c7o-purple-dark/50 h-10 w-10',
       icon: defineComponent({
         render: () =>
@@ -108,7 +109,7 @@ const navigation = {
             })
           ])
       })
-    },*/
+    },
     {
       name: 'Follow us',
       href: 'https://www.linkedin.com/company/crescendocx',
