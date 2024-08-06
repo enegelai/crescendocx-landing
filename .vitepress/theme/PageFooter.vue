@@ -24,7 +24,11 @@
         </div>
       </div>
       <div class="border-t border-c7o-purple/50 py-8 mt-6 sm:mt-10 lg:mt-12">
-        <p class="text-xs leading-5 text-gray-200">&copy; 2023-present CRESCENDOAI INC. All rights reserved.</p>
+        <div class="text-sm font-sans leading-5 text-gray-200 mb-4">
+          <a href="/crescendo_privacy_policy.pdf" target="_blank">PRIVACY POLICY</a> |
+          <a href="/crescendo_website_terms_of_use.pdf" target="_blank">TERMS OF USE</a>
+        </div>
+        <div class="text-xs leading-5 text-gray-200">&copy; 2023-present CRESCENDOAI INC. All rights reserved.</div>
       </div>
 
       <!-- Enegel.ai bot widget begin -->
